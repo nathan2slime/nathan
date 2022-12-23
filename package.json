@@ -1,28 +1,35 @@
 {
-  "name": "master",
+  "name": "app",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "commit": "git-cz",
-    "prepare": "husky install ",
-    "start": "turbo start --no-daemon --no-cache",
-    "test": "turbo test --no-daemon --no-cache",
-    "build": "turbo build --no-daemon --no-cache",
-    "dev": "turbo dev --no-daemon --no-cache"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "workspaces": [
-    "apps/**",
-    "libs/**"
-  ],
+  "dependencies": {
+    "@next/font": "13.1.0",
+    "next": "13.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
   "devDependencies": {
+    "@types/node": "18.11.17",
+    "@types/react": "18.0.26",
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "3.3.0",
     "husky": "^8.0.2",
     "prettier": "^2.7.1",
-    "turbo": "^1.6.3"
+    "@types/react-dom": "18.0.9",
+    "@types/styled-components": "^5.1.26",
+    "babel-plugin-styled-components": "^2.0.7",
+    "react-ionicons": "^4.2.0",
+    "typescript": "4.9.4"
   },
-  "dependencies": {},
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
