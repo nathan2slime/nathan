@@ -1,0 +1,11 @@
+dist/
+node_modules
+.turbo/
+.env
+logs/
+loader/
+generated
+.next
+build/
+.env.*
+.env

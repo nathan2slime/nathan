@@ -1,0 +1,15 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "outputs": [".next/**", "dist/**", "build/**"],
+      "dependsOn": ["^build"]
+    },
+    "dev": {},
+    "start": {
+      "dependsOn": ["^build"]
+    },
+    "test": {},
+    "migrate": {}
+  }
+}
