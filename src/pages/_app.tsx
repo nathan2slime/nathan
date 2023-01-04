@@ -9,9 +9,22 @@ import 'remixicon/fonts/remixicon.css';
 import GlobalStyle from '../global';
 import { LayoutApp } from '../styles/app.styles';
 
-const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
+const AnimatedCursor: any = dynamic(() => import('react-animated-cursor'), {
   ssr: true,
-}) as any;
+});
+
+const clickables = [
+  'a',
+  'input[type="text"]',
+  'input[type="email"]',
+  'input[type="number"]',
+  'input[type="submit"]',
+  'input[type="image"]',
+  'label[for]',
+  'select',
+  'textarea',
+  'button',
+];
 
 const App = ({ Component, pageProps }: AppProps) => (
   <ThemeProvider theme={theme}>
@@ -31,18 +44,7 @@ const App = ({ Component, pageProps }: AppProps) => (
       innerScale={0.7}
       hasBlendMode
       outerScale={1.2}
-      clickables={[
-        'a',
-        'input[type="text"]',
-        'input[type="email"]',
-        'input[type="number"]',
-        'input[type="submit"]',
-        'input[type="image"]',
-        'label[for]',
-        'select',
-        'textarea',
-        'button',
-      ]}
+      clickables={clickables}
     />
   </ThemeProvider>
 );

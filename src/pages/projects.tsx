@@ -7,11 +7,10 @@ import { projects } from '../mocks';
 import { ProjectsWrapper } from '../styles/projects.styles';
 
 const Projects = () => {
- 
   return (
     <ProjectsWrapper>
       <Head>
-        <title>Francisco Cajlon</title>
+        <title>Projects | Francisco Cajlon</title>
       </Head>
 
       <Navbar name="Projects" />
@@ -28,9 +27,9 @@ const Projects = () => {
 export default Projects;
 
 export type ProjectData = {
-  title: string;
   type?: string;
   href?: string;
+  title: string;
   techs: React.ReactNode[];
   github: string;
   description: string;

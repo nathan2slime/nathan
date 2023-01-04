@@ -37,7 +37,7 @@ export const projects: ProjectData[] = [
   {
     github: 'https://github.com/nathan2slime/cars',
     type: 'App',
-    icon: 'https://github.com/nathan2slime/cars/raw/master/client/assets/cars_wall.svg',
+    icon: 'https://github.com/nathan2slime/callisto/blob/master/app/android/app/src/main/res/drawable/icon.png?raw=true',
     techs: [
       <LogoReact />,
       <LogoNodejs />,

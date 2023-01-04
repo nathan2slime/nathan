@@ -23,10 +23,6 @@ const Menu = () => {
       path: '/projects',
       title: 'Projects',
     },
-    {
-      path: '/about',
-      title: 'About',
-    },
   ];
 
   const links = [

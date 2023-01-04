@@ -7,10 +7,31 @@ const Index = () => {
   return (
     <IndexWrapper>
       <Head>
-        <title>Francisco Cajlon</title>
+        <title>Home | Francisco Cajlon</title>
       </Head>
 
       <Navbar name="Home" />
+
+      <section>
+        <h2>Hi, welcome 🖐️</h2>
+
+        <p>
+          My name is <strong>Francisco Cajon Jhonathan Moura Batista</strong>,
+          but i prefer to be called <i>Jhonathan</i>, as it is easier and faster
+          to introduce yourself.
+        </p>
+
+        <p>
+          I really like <u>programming</u>, <u>reading</u>,
+          <u>listening to music</u>, watching <u>anime</u>, <u>series</u> and{' '}
+          <u>movies</u>. If you want to talk about any of these subjects,
+          please contact me !!!
+        </p>
+
+        <p>
+          Here you can see my projects and know a little about the things I like
+        </p>
+      </section>
     </IndexWrapper>
   );
 };
