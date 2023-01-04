@@ -481,6 +481,13 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
+"@types/react-custom-scroll@^4.3.2":
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/@types/react-custom-scroll/-/react-custom-scroll-4.3.2.tgz#04001a7452af519e9661a33dcec9758f428e9a4c"
+  integrity sha512-0gFAkoTihBzYcyoiw68qYIgTeHwPbCLbRMFftsVYlXLLvXx4y519If/+1r7UtOaF7aAXRRJOCYaHZj/HRyfc8Q==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-dom@18.0.9":
   version "18.0.9"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.9.tgz#ffee5e4bfc2a2f8774b15496474f8e7fe8d0b504"
@@ -1853,6 +1860,11 @@ quick-lru@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
+
+react-custom-scroll@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/react-custom-scroll/-/react-custom-scroll-4.4.0.tgz#8425c70d5991cfba0346b1c069d958dda4ed9e78"
+  integrity sha512-FN8F8rWq7Ub4lxScJqAqBd/owkMnunH71YAMvOyzjamDRfMxv3lVieUA1lUwIjsPaXcyPGi+R2k/N3tUr0rIZw==
 
 react-dom@17.0.1:
   version "17.0.1"

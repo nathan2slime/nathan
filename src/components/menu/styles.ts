@@ -11,7 +11,7 @@ export const MenuWrapper = styled.div`
   display: none;
   max-width: 300px;
   height: 100vh;
-  background: ${({ theme }) => theme.foregroundColorDown};
+  background: ${({ theme }) => theme.foregroundColorUp};
   border-right: 1px solid ${({ theme }) => theme.borderColor};
   padding: 40px 20px;
   flex-direction: column;
@@ -93,8 +93,11 @@ export const MenuItem = styled(Link)<MenuItemStyledProps>`
   font-size: 0.835rem;
 
   &:hover {
-    animation: ${pulse} 1.5s ease-in-out infinite both;
     color: ${({ theme, active }) =>
       active == 1 ? theme.textColorUp : theme.secondaryColorUp};
+  }
+
+  &:focus {
+    animation: ${pulse} 1.5s ease-in-out infinite both;
   }
 `;
