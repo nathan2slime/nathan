@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#">
-    <img src="https://nathan2slime.vercel.app/assets/images/chainsaw.jpg" alt="Francisco Cajlon" width="120" height="120">
+    <img src="https://nathan2slime.vercel.app/favicon.ico" alt="Francisco Cajlon" width="120" height="120">
   </a>
 
   <h3 align="center">
