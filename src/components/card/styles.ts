@@ -50,7 +50,12 @@ export const CardWrapper = styled.div`
     gap: 10px;
     border-radius: 5px;
 
-    svg {
+    i {
+      font-size: 22px;
+    }
+
+    svg,
+    i {
       fill: ${({ theme }) => theme.textColorUp};
       color: ${({ theme }) => theme.textColorUp};
     }

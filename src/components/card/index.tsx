@@ -17,7 +17,11 @@ const Card: FC<CardProps> = ({ data }) => {
         </div>
       </div>
 
-      <div>{data.techs.map(el => el)}</div>
+      <div>
+        {data.techs.map(el => (
+          <div key={Math.random()}>{el}</div>
+        ))}
+      </div>
 
       <div>
         <Link href={data.github} target="_blank">

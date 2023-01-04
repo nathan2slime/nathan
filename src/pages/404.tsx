@@ -1,23 +1,20 @@
-import { Triangle } from 'react-loader-spinner';
 import Link from 'next/link';
 import Head from 'next/head';
 
 import { NotFoundWrapper } from '../styles/404.styles';
 
-import theme from '../global/theme';
-
 const NotFound = () => {
   return (
     <NotFoundWrapper>
       <Head>
-        <title>404</title>
+        <title>Page not found | Francisco Cajlon</title>
       </Head>
 
-      <Triangle height="80" width="80" color={theme.primaryColorUp} visible />
+      <div>
+        <span>Page not found</span>
 
-      <span>Not around here</span>
-
-      <Link href="/">GO TO HOME PAGE</Link>
+        <Link href="/">Go to home page</Link>
+      </div>
     </NotFoundWrapper>
   );
 };

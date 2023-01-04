@@ -4,12 +4,15 @@ import { puff } from '../global/animations';
 
 export const IndexWrapper = styled.div`
   flex: 1;
-  background: ${({ theme }) => theme.backgroundColor};
+  height: 100vh;
+  overflow-y: auto;
+  background: linear-gradient(
+      ${({ theme }) => theme.backgroundColor}10,
+      ${({ theme }) => theme.backgroundColor}10
+    ),
+    url(/assets/images/panda.jpg);
+  background-size: cover;
   animation: ${puff} 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) both;
-
-  img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-  }
+  background-repeat: no-repeat;
+  background-position: top right;
 `;

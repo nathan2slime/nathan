@@ -7,7 +7,7 @@ type DrawerStyledProps = {
 export const NavbarWrapper = styled.div`
   width: 100%;
   position: sticky;
-  background: ${({ theme }) => theme.backgroundColor}50;
+  background: ${({ theme }) => theme.foregroundColorDown}e8;
   backdrop-filter: blur(2px);
   border-bottom: 1px solid ${({ theme }) => theme.foregroundColorDown}15;
   height: 80px;
@@ -32,7 +32,7 @@ export const NavbarWrapper = styled.div`
   }
 
   h3 {
-    color: ${({ theme }) => theme.textColorDown};
+    color: ${({ theme }) => theme.textColorUp};
     font-size: 1rem;
   }
 
@@ -53,8 +53,8 @@ export const NavbarWrapper = styled.div`
     height: 18px;
 
     cursor: pointer;
-    fill: ${({ theme }) => theme.textColorDown};
-    color: ${({ theme }) => theme.textColorDown};
+    fill: ${({ theme }) => theme.textColorUp};
+    color: ${({ theme }) => theme.textColorUp};
     transition: all 0.3s;
 
     &:hover {

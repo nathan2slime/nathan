@@ -28,6 +28,8 @@ const Projects = () => {
         <GitCommit />,
         <LogoCss3 />,
         <LogoHtml5 />,
+        <i className="ri-git-repository-fill" />,
+        <i className="ri-open-source-fill" />,
         <LogoPwa />,
         <LogoJavascript />,
         <LogoVercel />,
@@ -44,6 +46,8 @@ const Projects = () => {
         <GitCommit />,
         <LogoAndroid />,
         <LogoJavascript />,
+        <i className="ri-open-source-fill" />,
+        <i className="ri-git-repository-fill" />,
       ],
       title: 'Callisto',
       description: 'System to search used cars with admin',
@@ -60,7 +64,7 @@ const Projects = () => {
 
       <section>
         {projects.map(project => (
-          <Card data={project} />
+          <Card data={project} key={Math.random()} />
         ))}
       </section>
     </ProjectsWrapper>

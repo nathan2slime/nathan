@@ -12,11 +12,11 @@ export const ProjectsWrapper = styled.div`
     ),
     url(/assets/images/movie.jpg);
   background-size: cover;
+  background-position: center;
   animation: ${puff} 0.15s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 
   > section {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 
     gap: 20px;
