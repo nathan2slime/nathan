@@ -9,12 +9,17 @@ const Card: FC<CardProps> = ({ data }) => {
   return (
     <CardWrapper>
       <div>
-        <img src={data.icon} alt={data.title} />
-
         <div>
-          <h4>{data.title}</h4>
-          <p>{data.description}</p>
+          <img src={data.icon} alt={data.title} />
+
+          <div>
+            <h4>{data.title}</h4>
+
+            <p>{data.type}</p>
+          </div>
         </div>
+
+        <p>{data.description}</p>
       </div>
 
       <div>

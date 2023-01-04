@@ -88,16 +88,21 @@ export const CardWrapper = styled.div`
   }
 
   > div:first-child {
+    flex-direction: column;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
 
-    &,
     > div {
       align-items: flex-start;
+
+      > div {
+        flex-direction: column;
+      }
     }
 
+
     > div {
-      flex-direction: column;
+      gap: 20px;
     }
   }
 
