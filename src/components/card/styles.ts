@@ -107,7 +107,7 @@ export const CardWrapper = styled.div`
   }
 
   @media (min-width: 600px) {
-    width: 400px;
+    width: 380px;
   }
 
   @media (max-width: 375px) {

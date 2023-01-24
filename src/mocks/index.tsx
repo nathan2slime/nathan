@@ -8,6 +8,7 @@ import {
   LogoAndroid,
   LogoPwa,
   LogoVercel,
+  LogoStencil,
 } from 'react-ionicons';
 
 import { ProjectData } from '../pages/projects';
@@ -15,7 +16,7 @@ import { ProjectData } from '../pages/projects';
 export const projects: ProjectData[] = [
   {
     href: 'https://tartarus-county.vercel.app',
-    github: '',
+    github: 'https://github.com/nathan2slime/tartarus',
     type: 'PWA',
     icon: 'https://tartarus-county.vercel.app/logo192.png',
     techs: [
@@ -33,6 +34,29 @@ export const projects: ProjectData[] = [
     title: 'Tartarus',
     description:
       'Project with functionality to obtain information from a Brazilian municipality (mesoregion, microregion, region, uf and etc), through the IBGE API.',
+  },
+  {
+    type: 'PWA',
+    description:
+      'Project for real-time tracking of artificial satellites, news about astronomy, see daily photos of the earth and astronomy picture day, see photos of the sun and mars, etc.',
+    icon: 'https://spacekrypton.vercel.app/logo512.png',
+    github: 'https://github.com/nathan2slime/spacekrypton',
+    techs: [
+      <LogoReact />,
+      <LogoNodejs />,
+      <GitCommit />,
+      <LogoCss3 />,
+      <LogoStencil />,
+      <LogoHtml5 />,
+      <i className="ri-git-repository-fill" />,
+      <i className="ri-database-2-fill" />,
+      <i className="ri-open-source-fill" />,
+      <LogoPwa />,
+      <LogoJavascript />,
+      <LogoVercel />,
+    ],
+    href: 'https://spacekrypton.vercel.app/',
+    title: 'Space Krypton',
   },
   {
     github: 'https://github.com/nathan2slime/cars',

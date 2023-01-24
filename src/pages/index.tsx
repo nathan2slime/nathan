@@ -22,10 +22,9 @@ const Index = () => {
         </p>
 
         <p>
-          I really like <u>programming</u>, <u>reading</u>,
-          <u>listening to music</u>, watching <u>anime</u>, <u>series</u> and{' '}
-          <u>movies</u>. If you want to talk about any of these subjects,
-          please contact me !!!
+          I really like <u>programming</u>, <u>reading</u>, listening to{' '}
+          <u>music</u>, watching <u>anime</u>, <u>series</u> and <u>movies</u>.
+          If you want to talk about any of these subjects, please contact me !!!
         </p>
 
         <p>
