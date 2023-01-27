@@ -22,6 +22,7 @@ export const CardWrapper = styled.div`
   p {
     color: ${({ theme }) => theme.textColorDown};
     font-size: 0.845rem;
+    font-weight: 600;
     margin-top: 5px;
   }
 
@@ -58,6 +59,10 @@ export const CardWrapper = styled.div`
     i {
       fill: ${({ theme }) => theme.textColorUp};
       color: ${({ theme }) => theme.textColorUp};
+    }
+
+    p {
+      font-weight: 800;
     }
   }
 

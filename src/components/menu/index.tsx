@@ -51,7 +51,7 @@ const Menu = () => {
 
         <h1>Francisco Cajlon</h1>
 
-        <p>Full Stack Javascript and Flutter Developer</p>
+        <p>Software Engineer</p>
       </div>
 
       <section>

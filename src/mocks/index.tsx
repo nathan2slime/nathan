@@ -33,22 +33,19 @@ export const projects: ProjectData[] = [
     ],
     title: 'Tartarus',
     description:
-      'Project with functionality to obtain information from a Brazilian municipality (mesoregion, microregion, region, uf and etc), through the IBGE API.',
+      'Obtain information from a Brazilian municipality',
   },
   {
     type: 'PWA',
-    description:
-      'Project for real-time tracking of artificial satellites, news about astronomy, see daily photos of the earth and astronomy picture day, see photos of the sun and mars, etc.',
+    description: 'Real-time tracking of artificial satellites',
     icon: 'https://spacekrypton.vercel.app/logo512.png',
     github: 'https://github.com/nathan2slime/spacekrypton',
     techs: [
       <LogoReact />,
       <LogoNodejs />,
-      <GitCommit />,
       <LogoCss3 />,
       <LogoStencil />,
       <LogoHtml5 />,
-      <i className="ri-git-repository-fill" />,
       <i className="ri-database-2-fill" />,
       <i className="ri-open-source-fill" />,
       <LogoPwa />,
@@ -65,15 +62,12 @@ export const projects: ProjectData[] = [
     techs: [
       <LogoReact />,
       <LogoNodejs />,
-      <GitCommit />,
       <LogoAndroid />,
       <LogoJavascript />,
       <i className="ri-open-source-fill" />,
       <i className="ri-database-2-fill" />,
-      <i className="ri-git-repository-fill" />,
     ],
     title: 'Callisto',
-    description:
-      'Simple used car management system. With car registration, removal and editing, as well as user authentication and registration.',
+    description: 'Simple used car management system',
   },
 ];

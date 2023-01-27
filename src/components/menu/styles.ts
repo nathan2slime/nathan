@@ -9,6 +9,7 @@ type MenuItemStyledProps = {
 
 export const MenuWrapper = styled.div`
   display: none;
+  width: 100%;
   max-width: 300px;
   height: 100vh;
   background: ${({ theme }) => theme.foregroundColorUp};
@@ -46,6 +47,8 @@ export const MenuWrapper = styled.div`
     color: ${({ theme }) => theme.textColorDown};
     font-size: 0.845rem;
     text-align: center;
+    font-style: italic;
+    font-weight: 600;
   }
 
   > div:last-child {

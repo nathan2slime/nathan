@@ -10,7 +10,7 @@ import GlobalStyle from '../global';
 import { LayoutApp } from '../styles/app.styles';
 
 const AnimatedCursor: any = dynamic(() => import('react-animated-cursor'), {
-  ssr: true,
+  ssr: false,
 });
 
 const clickables = [
