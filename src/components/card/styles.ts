@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const CardWrapper = styled.div`
   width: 100%;
+  height: fit-content;
   overflow: hidden;
-  padding: 20px;
   background: ${({ theme }) => theme.backgroundColor}80;
   backdrop-filter: blur(10px);
   border-radius: 8px;
@@ -46,7 +46,7 @@ export const CardWrapper = styled.div`
     width: fit-content;
     min-height: 40px;
     flex-wrap: wrap;
-    margin-top: 15px;
+    margin: 15px 20px 20px;
     padding: 10px;
     gap: 10px;
     border-radius: 5px;
@@ -68,6 +68,7 @@ export const CardWrapper = styled.div`
 
   > div:last-child {
     margin-top: 15px;
+    padding: 0px 20px 20px;
     justify-content: flex-end;
     gap: 10px;
 
@@ -95,19 +96,27 @@ export const CardWrapper = styled.div`
   > div:first-child {
     flex-direction: column;
     justify-content: space-between;
-    gap: 15px;
+    background: ${({ theme }) => theme.foregroundColorUp};
 
     > div {
+      padding: 20px 20px 15px;
       align-items: flex-start;
+      background: ${({theme}) => theme.primaryColorUp}14;
 
       > div {
         flex-direction: column;
       }
     }
 
-
     > div {
       gap: 20px;
+    }
+
+    > p {
+      border-radius: 5px;
+      font-weight: 400;
+      display: block;
+      margin: 20px;
     }
   }
 

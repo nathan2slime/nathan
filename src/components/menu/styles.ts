@@ -47,7 +47,6 @@ export const MenuWrapper = styled.div`
     color: ${({ theme }) => theme.textColorDown};
     font-size: 0.845rem;
     text-align: center;
-    font-style: italic;
     font-weight: 600;
   }
 
